@@ -1,0 +1,23 @@
+{
+  "name": "better-life-vietnam",
+  "version": "1.0.0",
+  "description": "Better Life Vietnam website in Node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpham045/BetterLifeVietnam-Node.git"
+  },
+  "author": "Better Life Vietnam Web Developer",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/tpham045/BetterLifeVietnam-Node/issues"
+  },
+  "homepage": "https://github.com/tpham045/BetterLifeVietnam-Node#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
