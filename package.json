@@ -2,7 +2,7 @@
   "name": "better-life-vietnam",
   "version": "1.0.0",
   "description": "Better Life Vietnam website in Node.js",
-  "main": "app.js",
+  "main": "app/app.js",
   "scripts": {
   "start": "node app.js"
   },
