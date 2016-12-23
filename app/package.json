@@ -4,7 +4,10 @@
   "description": "Better Life Vietnam website in Node.js",
   "main": "app.js",
   "scripts": {
-    "test": "node test"
+  "start": "node app.js"
+  },
+  "engines": {
+    "node": "4.6.1"
   },
   "repository": {
     "type": "git",
