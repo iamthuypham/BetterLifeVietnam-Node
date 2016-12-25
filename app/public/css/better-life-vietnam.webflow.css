@@ -1,0 +1,1666 @@
+h4 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+a {
+  color: #ec5a02;
+  text-decoration: none;
+  text-transform: none;
+}
+
+blockquote {
+  height: 100%;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-color: #007286;
+  border-left-style: solid;
+  border-left-width: 5px;
+  font-family: 'Open Sans', sans-serif;
+  color: #077487;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: justify;
+}
+
+.link-group {
+  position: static;
+  left: -150px;
+  top: 100px;
+  z-index: 2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.link-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  height: 35px;
+  margin-left: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  font-family: 'Open Sans', sans-serif;
+  color: #007286;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.link-item:hover {
+  color: #ec5900;
+}
+
+.link-item.link-donate {
+  height: 90px;
+  padding-right: 20px;
+  padding-left: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: #ec5a02;
+  -webkit-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
+  color: #fff;
+}
+
+.link-item.link-donate:hover {
+  background-color: #fff;
+  color: #ec5a02;
+}
+
+.section-template {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 450px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  background-image: none;
+  -webkit-transition: background-color 372ms cubic-bezier(.455, .03, .515, .955);
+  transition: background-color 372ms cubic-bezier(.455, .03, .515, .955);
+}
+
+.section-template.our-story {
+  height: 750px;
+  background-image: none;
+}
+
+.section-template.section-bg-dark {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 450px;
+  margin-top: 90px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #007286;
+  background-image: none;
+}
+
+.section-template.section-bg-dark.section-history {
+  margin-top: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.section-template.section-bg-dark.what-we-do-section {
+  height: 500px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.section-template.section-bg-dark.tour-for-book-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 600px;
+  padding-right: 50px;
+  padding-left: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.section-template.section-bg-dark.apply-visa {
+  height: 900px;
+  margin-top: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.section-template.section-bg-dark.custom-tour {
+  height: 350px;
+  margin-top: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.section-template.section-bg-dark.history-section {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.section-template.contact {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 350px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #007286;
+  color: #fff;
+}
+
+.section-template.tourism-section {
+  height: 500px;
+}
+
+.section-template.section-feature {
+  height: 250px;
+  background-color: #007286;
+}
+
+.section-template.section-bg-white.our-team {
+  height: 2000px;
+}
+
+.section-template.section-bg-white.what-we-do-section {
+  height: 900px;
+}
+
+.section-template.section-bg-white.travel-service-section {
+  height: 550px;
+}
+
+.section-template-paragraph {
+  width: 95%;
+  margin-bottom: 0px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  background-color: transparent;
+  font-family: Lato, sans-serif;
+  color: #007286;
+  font-size: 3.8em;
+  line-height: 57px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.section-template-paragraph.what-we-do-paragraph {
+  width: auto;
+  color: #006d49;
+  font-size: 1.9em;
+  line-height: 35px;
+}
+
+.section-template-paragraph.what-we-do-paragraph {
+  width: 70%;
+  margin-bottom: 30px;
+  color: #007286;
+  font-size: 1.4em;
+  line-height: 31px;
+  text-align: center;
+}
+
+.section-template-paragraph.tourism-paragraph {
+  font-size: 1.8em;
+}
+
+.section-template-paragraph.paragraph-white {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 33px;
+  font-weight: 400;
+}
+
+.section-template-paragraph.history-paragraph {
+  width: 80%;
+  color: #fff;
+  font-size: 1em;
+  line-height: 33px;
+  text-align: justify;
+}
+
+.section-template-paragraph.paragraph-dark {
+  font-size: 1.4em;
+}
+
+.section-template-paragraph.single-history-paragraph {
+  width: 80%;
+  color: #fff;
+  font-size: 1.4em;
+  line-height: 33px;
+}
+
+.section-template-paragraph.what-we-do-paragraph-bg-dark {
+  width: 80%;
+  color: #fff;
+  font-size: 1.4em;
+  line-height: 33px;
+  text-align: justify;
+}
+
+.section-template-paragraph.apply-visa-paragraph {
+  width: 80%;
+  color: #fff;
+  font-size: 1.4em;
+  line-height: 28px;
+  text-align: justify;
+}
+
+.section-template-paragraph.tour-for-book-paragraph {
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #fff;
+  font-size: 1em;
+  line-height: 33px;
+}
+
+.section-template-headline {
+  margin-bottom: 30px;
+  color: #007286;
+  font-size: 4em;
+  line-height: 45px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-template-headline.white-headline {
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 3.2em;
+  line-height: 60px;
+}
+
+.section-template-headline.headline-med {
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 2.3em;
+  text-transform: capitalize;
+}
+
+.section-template-headline.contact-headline {
+  color: #fff;
+  font-size: 2.9em;
+}
+
+.section-template-headline.headline-bg-dark {
+  color: #fff;
+  font-size: 3.5em;
+}
+
+.section-template-headline.what-we-do-headline-bg-white {
+  font-size: 2.6em;
+}
+
+.section-template-headline.headline-apply-visa {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.section-template-headline.headline-custom-tour {
+  color: #fff;
+}
+
+.nav-link {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-left: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 31px -2px #a9a9a9;
+}
+
+.nav-link.w--open {
+  background-color: transparent;
+}
+
+.button-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-top: 15px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.button-template {
+  width: 180px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #007286;
+  -webkit-transition: background-color 500ms ease-in-out;
+  transition: background-color 500ms ease-in-out;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button-template.feature-event-button {
+  width: 200px;
+  margin-left: 0px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: #ec5a02;
+  line-height: 29px;
+}
+
+.button-template.orange-button {
+  background-color: #ec5a02;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.button-template.orange-button:hover {
+  background-color: #fff;
+  color: #ec5a02;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.button-template.voluntourism-button {
+  background-color: #ec5a02;
+}
+
+.button-template.voluntourism-button:hover {
+  background-color: #fff;
+  color: #ec5a02;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.button-template.what-we-do-button:hover {
+  background-color: #ec5a02;
+}
+
+.button-template.contact-button {
+  border: 1px solid #fff;
+}
+
+.button-template.contact-button:hover {
+  background-color: #fff;
+  color: #007286;
+}
+
+.button-template.feature-button {
+  width: 300px;
+  background-color: #ec5a02;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+}
+
+.button-template.feature-button:hover {
+  -webkit-transform: scale(1.06);
+  -ms-transform: scale(1.06);
+  transform: scale(1.06);
+}
+
+.tour-of-book-highlight {
+  font-family: Vollkorn, serif;
+  font-size: 2.3em;
+  line-height: 38px;
+}
+
+.blv-logo-img {
+  position: static;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+.section-break-line {
+  height: 1px;
+  background-image: -webkit-linear-gradient(0deg, transparent, #007286 50%, transparent);
+  background-image: linear-gradient(90deg, transparent, #007286 50%, transparent);
+}
+
+.slider {
+  position: relative;
+  width: 500px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background-color: transparent;
+}
+
+.slide-what-we-do-2 {
+  background-image: url('../images/Education3.jpg');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.slide-what-we-do-1 {
+  background-image: url('../images/Book-Distribution.jpg');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.slide-what-we-do-3 {
+  background-image: url('../images/Education1.jpg');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.slide-what-we-do-4 {
+  background-image: url('../images/Voluntourism1.jpg');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.slide-text {
+  display: inline-block;
+  padding-top: 20px;
+  clear: none;
+}
+
+.form-text {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+.form-input {
+  display: inline-block;
+  width: 300px;
+  float: right;
+  border: 1px solid #007286;
+  font-family: 'Open Sans', sans-serif;
+  color: #007286;
+}
+
+.form-input.text-area {
+  height: 100px;
+}
+
+.submit-button {
+  display: inline-block;
+  width: 100%;
+  border: 1px solid #fff;
+  background-color: #007286;
+}
+
+.form-wrapper {
+  width: 500px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.contact-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.contact-column-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.social-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.form {
+  display: inline-block;
+  width: 440px;
+}
+
+.contact-column-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.success-message {
+  background-color: transparent;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.error-message {
+  background-color: transparent;
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin-bottom: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.link-orange {
+  color: #ec5a02;
+}
+
+.tabs {
+  width: 80%;
+}
+
+.tab-link {
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: transparent;
+  font-family: 'Open Sans', sans-serif;
+  color: #007286;
+  font-weight: 600;
+}
+
+.tab-link.w--current {
+  background-color: #007286;
+  color: #fff;
+}
+
+.tab-link.tour-tab {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.tab-content {
+  height: 300px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 114, 134, .3);
+  font-family: 'Open Sans', sans-serif;
+  color: #007286;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.tab-content.travel-service {
+  height: 350px;
+  margin-bottom: 0px;
+}
+
+.lightbox-heading {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  height: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, .6);
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.header-bg-dark {
+  color: #fff;
+}
+
+.tfb-logo {
+  margin-left: 10px;
+  background-color: #fff;
+}
+
+.tour-for-book-feature {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.tab-menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.donate-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ec5a02;
+}
+
+.partner {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+
+.social-link-block {
+  height: 50px;
+}
+
+html.w-mod-js *[data-ix="appear-at-load"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 78px);
+  -ms-transform: translate(0px, 78px);
+  transform: translate(0px, 78px);
+}
+
+@media (max-width: 991px) {
+  .link-item {
+    font-size: 8px;
+  }
+  .link-item.link-donate {
+    height: 80px;
+  }
+  .section-template.section-bg-dark {
+    margin-top: 80px;
+  }
+  .section-template.section-bg-dark.section-history {
+    height: 350px;
+  }
+  .section-template.section-bg-dark.what-we-do-section {
+    height: 400px;
+  }
+  .section-template.section-bg-dark.apply-visa {
+    height: 800px;
+  }
+  .section-template.section-bg-dark.history-section {
+    height: 400px;
+  }
+  .section-template.tourism-section {
+    height: 400px;
+  }
+  .section-template-paragraph {
+    font-size: 3.2em;
+  }
+  .section-template-paragraph.paragraph-white {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1em;
+    line-height: 24px;
+  }
+  .section-template-paragraph.history-paragraph {
+    font-size: 0.9em;
+    line-height: 25px;
+  }
+  .section-template-paragraph.single-history-paragraph {
+    font-size: 0.9em;
+    line-height: 25px;
+  }
+  .section-template-paragraph.what-we-do-paragraph-bg-dark {
+    font-size: 1em;
+    line-height: 28px;
+  }
+  .section-template-paragraph.apply-visa-paragraph {
+    font-size: 0.9em;
+    line-height: 25px;
+  }
+  .section-template-paragraph.tour-for-book-paragraph {
+    font-size: 0.9em;
+    line-height: 25px;
+  }
+  .section-template-headline {
+    margin-bottom: 20px;
+    font-size: 2.6em;
+  }
+  .section-template-headline.white-headline {
+    font-size: 2.7em;
+  }
+  .section-template-headline.headline-med {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 1.5em;
+    line-height: 33px;
+  }
+  .section-template-headline.contact-headline {
+    font-size: 1.9em;
+  }
+  .section-template-headline.headline-bg-dark {
+    font-size: 2.2em;
+  }
+  .section-template-headline.what-we-do-headline-bg-white {
+    font-size: 2.2em;
+  }
+  .section-template-headline.headline-custom-tour {
+    font-size: 2.6em;
+  }
+  .button-template.feature-event-button {
+    font-size: 9px;
+  }
+  .slider {
+    width: 350px;
+  }
+  .form-text {
+    font-size: 12px;
+  }
+  .form-input {
+    width: 200px;
+  }
+  .form-wrapper {
+    width: 300px;
+  }
+  .form {
+    width: 300px;
+  }
+  .block-quote {
+    font-size: 0.9em;
+    line-height: 20px;
+  }
+  .tabs {
+    width: 90%;
+  }
+  .tab-link {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+  }
+  .tab-link.w--current {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .tab-content {
+    height: 350px;
+    font-size: 12px;
+  }
+  .tab-content.travel-service {
+    font-size: 0.9em;
+    line-height: 20px;
+  }
+  .lightbox-heading {
+    width: 94%;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .link-item {
+    margin-left: 0px;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-transform: capitalize;
+  }
+  .link-item.link-donate {
+    height: 55px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .section-template.our-story {
+    height: 400px;
+  }
+  .section-template.section-bg-dark {
+    height: 250px;
+    margin-top: 55px;
+  }
+  .section-template.section-bg-dark.section-history {
+    height: 300px;
+  }
+  .section-template.section-bg-dark.what-we-do-section {
+    height: 300px;
+  }
+  .section-template.section-bg-dark.tour-for-book-section {
+    height: 400px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .section-template.section-bg-dark.apply-visa {
+    height: 650px;
+  }
+  .section-template.section-bg-dark.custom-tour {
+    height: 300px;
+  }
+  .section-template.contact {
+    height: 500px;
+  }
+  .section-template.tourism-section {
+    height: 180px;
+  }
+  .section-template.section-feature {
+    height: 180px;
+  }
+  .section-template.section-bg-white {
+    height: 200px;
+  }
+  .section-template.section-bg-white.what-we-do-section {
+    height: 750px;
+  }
+  .section-template.section-bg-white.travel-service-section {
+    height: 500px;
+  }
+  .section-template-paragraph {
+    font-size: 1em;
+    line-height: 21px;
+  }
+  .section-template-paragraph.what-we-do-paragraph {
+    width: 80%;
+    font-size: 0.8em;
+    line-height: 20px;
+  }
+  .section-template-paragraph.tourism-paragraph {
+    font-size: 0.8em;
+    line-height: 20px;
+  }
+  .section-template-paragraph.paragraph-white {
+    font-size: 0.8em;
+    line-height: 20px;
+  }
+  .section-template-paragraph.paragraph-dark {
+    font-size: 0.8em;
+    line-height: 20px;
+  }
+  .section-template-paragraph.what-we-do-paragraph-bg-dark {
+    font-size: 0.8em;
+    line-height: 20px;
+  }
+  .section-template-paragraph.apply-visa-paragraph {
+    line-height: 20px;
+  }
+  .section-template-paragraph.tour-for-book-paragraph {
+    line-height: 20px;
+    text-align: justify;
+  }
+  .section-template-headline {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    line-height: 25px;
+  }
+  .section-template-headline.white-headline {
+    font-size: 1.1em;
+    line-height: 25px;
+  }
+  .section-template-headline.headline-med {
+    font-size: 1.1em;
+    line-height: 20px;
+  }
+  .section-template-headline.contact-headline {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+  }
+  .section-template-headline.headline-bg-dark {
+    font-size: 1.1em;
+  }
+  .section-template-headline.what-we-do-headline-bg-white {
+    font-size: 1.1em;
+  }
+  .section-template-headline.headline-custom-tour {
+    font-size: 1.1em;
+  }
+  .button-group {
+    margin-top: 5px;
+    padding-top: 0px;
+  }
+  .button-template.feature-event-button {
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 0.6em;
+    line-height: 20px;
+  }
+  .button-template.orange-button {
+    font-size: 0.6em;
+  }
+  .button-template.orange-button:hover {
+    font-size: 0.6em;
+  }
+  .button-template.voluntourism-button {
+    font-size: 0.6em;
+  }
+  .button-template.voluntourism-button:hover {
+    font-size: 0.6em;
+  }
+  .button-template.what-we-do-button {
+    font-size: 0.8em;
+  }
+  .button-template.contact-button {
+    font-size: 0.6em;
+  }
+  .button-template.feature-button {
+    font-size: 0.8em;
+  }
+  .tour-of-book-highlight {
+    font-size: 1.5em;
+    line-height: 24px;
+  }
+  .slider {
+    width: 250px;
+    height: 200px;
+  }
+  .slide-text {
+    padding-top: 0px;
+  }
+  .form-text {
+    font-size: 0.8em;
+    line-height: 0px;
+  }
+  .form-input {
+    width: 300px;
+    font-size: 0.8em;
+  }
+  .contact-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .social-row {
+    width: 40%;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .contact-column-1 {
+    margin-bottom: 20px;
+  }
+  .row {
+    width: 100%;
+  }
+  .block-quote {
+    padding: 5px 10px;
+  }
+  .tabs {
+    width: 100%;
+  }
+  .tab-content {
+    height: 400px;
+  }
+  .tab-content.travel-service {
+    height: 350px;
+  }
+  .lightbox-heading {
+    font-size: 0.9em;
+    line-height: 20px;
+  }
+  .header-bg-dark {
+    margin-top: 10px;
+    font-size: 1em;
+    line-height: 20px;
+  }
+  .column1.manual-column {
+    padding-right: 0px;
+  }
+  .donate-section {
+    height: 150px;
+  }
+  .partner {
+    font-size: 9px;
+  }
+  .social-link-block {
+    height: 30px;
+  }
+}
+
+@media (max-width: 479px) {
+  .link-group {
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    border-top: 1px solid #ec5a02;
+    border-bottom: 1px solid #ec5a02;
+  }
+  .link-item {
+    height: 35px;
+    margin-left: 0px;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-size: 7.5px;
+    line-height: 10px;
+    text-transform: capitalize;
+  }
+  .link-item.link-donate {
+    height: 35px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .section-template.our-story {
+    height: 550px;
+  }
+  .section-template.section-bg-dark {
+    height: 440px;
+    margin-top: 95px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .section-template.section-bg-dark.what-we-do-section {
+    height: 400px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .section-template.section-bg-dark.tour-for-book-section {
+    height: 550px;
+    margin-top: 100px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .section-template.section-bg-dark.apply-visa {
+    height: 900px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .section-template.section-bg-dark.custom-tour {
+    height: 400px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .section-template.section-bg-dark.history-section {
+    height: 600px;
+    margin-top: 85px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .section-template.contact {
+    height: 450px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+  .section-template.tourism-section {
+    height: 150px;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+  .section-template.section-feature {
+    height: 150px;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+  .section-template.section-bg-white {
+    height: 250px;
+  }
+  .section-template.section-bg-white.our-team {
+    height: 3300px;
+  }
+  .section-template.section-bg-white.what-we-do-section {
+    height: 800px;
+  }
+  .section-template.section-bg-white.travel-service-section {
+    height: 630px;
+  }
+  .section-template-paragraph {
+    font-size: 1.4em;
+    line-height: 25px;
+  }
+  .section-template-paragraph.what-we-do-paragraph {
+    width: 90%;
+    margin-bottom: 20px;
+    font-size: 1em;
+    line-height: 20px;
+  }
+  .section-template-paragraph.tourism-paragraph {
+    margin-bottom: 20px;
+    font-size: 0.8em;
+    line-height: 20px;
+  }
+  .section-template-paragraph.history-paragraph {
+    line-height: 20px;
+  }
+  .section-template-paragraph.paragraph-dark {
+    font-size: 0.9em;
+    line-height: 20px;
+  }
+  .section-template-paragraph.single-history-paragraph {
+    line-height: 20px;
+  }
+  .section-template-paragraph.what-we-do-paragraph-bg-dark {
+    width: 90%;
+    font-size: 0.9em;
+    line-height: 20px;
+  }
+  .section-template-paragraph.apply-visa-paragraph {
+    line-height: 20px;
+  }
+  .section-template-paragraph.tour-for-book-paragraph {
+    width: 100%;
+    line-height: 20px;
+  }
+  .section-template-headline {
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    line-height: 25px;
+  }
+  .section-template-headline.white-headline {
+    font-size: 1.4em;
+    line-height: 25px;
+  }
+  .section-template-headline.headline-med {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    line-height: 20px;
+  }
+  .section-template-headline.contact-headline {
+    font-size: 1.4em;
+  }
+  .section-template-headline.headline-bg-dark {
+    font-size: 1.4em;
+  }
+  .section-template-headline.what-we-do-headline-bg-white {
+    font-size: 1.4em;
+  }
+  .section-template-headline.headline-custom-tour {
+    font-size: 1.4em;
+  }
+  .nav-link {
+    padding-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    box-shadow: none;
+  }
+  .button-group {
+    margin-top: 10px;
+    padding-top: 0px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  .button-template.feature-event-button {
+    width: 100%;
+    margin-right: 0px;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    font-size: 9px;
+    line-height: 26px;
+  }
+  .button-template.what-we-do-button {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .button-template.feature-button {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .tour-of-book-highlight {
+    font-size: 2.3em;
+    line-height: 20px;
+  }
+  .blv-logo-img {
+    display: block;
+    margin: 5px auto;
+  }
+  .slider {
+    width: 320px;
+    height: 215px;
+  }
+  .slide-text {
+    padding-top: 0px;
+  }
+  .form-text {
+    font-size: 0.9em;
+    line-height: 0em;
+  }
+  .form-input {
+    width: 250px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 0.9em;
+  }
+  .submit-button {
+    width: 250px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  .form-wrapper {
+    margin-bottom: 0px;
+  }
+  .contact-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+  .profile-img {
+    max-width: 20%;
+  }
+  .block-quote {
+    margin-bottom: 5px;
+    padding: 5px 10px;
+  }
+  .tabs {
+    width: 100%;
+  }
+  .tab-link {
+    display: inline-block;
+    padding: 5px 9px;
+    font-size: 8px;
+    line-height: 12px;
+  }
+  .tab-link.w--current {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .tab-content {
+    height: 500px;
+    font-size: 0.8em;
+    line-height: 18px;
+  }
+  .tab-content.travel-service {
+    height: 550px;
+  }
+  .lightbox-heading {
+    width: 88%;
+    font-size: 7px;
+    line-height: 9px;
+  }
+  .header-bg-dark {
+    margin-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    font-size: 1em;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .tfb-logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .tour-for-book-feature {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .tab-menu {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .column2 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .column1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .social-link-block {
+    height: 25px;
+  }
+}

@@ -4335,5 +4335,6 @@
  */
 Webflow.require('ix').init([
   {"slug":"appear-at-load","name":"Appear-At-Load","value":{"style":{"opacity":0,"x":"0px","y":"78px","z":"0px"},"triggers":[{"type":"load","stepsA":[{"opacity":1,"transition":"transform 1.5s ease-in-quad 0, opacity 3s ease-in-quad 0","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}},
-  {"slug":"hover-scale-down","name":"Hover-Scale-Down","value":{"style":{},"triggers":[{"type":"hover","selector":".icon","descend":true,"stepsA":[{"height":"32%","transition":"width 200 ease 0, height 400ms ease-in-out 0"}],"stepsB":[{"height":"100%","transition":"height 400ms ease-in-out 0"}]}]}}
+  {"slug":"hover-scale-down","name":"Hover-Scale-Down","value":{"style":{},"triggers":[{"type":"hover","selector":"d9bb83ea-58e1-3543-5a2f-792c2d678519","descend":true,"stepsA":[{"height":"32%","transition":"width 200 ease 0, height 400ms ease-in-out 0"}],"stepsB":[{"height":"100%","transition":"height 400ms ease-in-out 0"}]}]}},
+  {"slug":"emphasize-at-load","name":"Emphasize-At-Load","value":{"style":{},"triggers":[{"type":"load","loopA":true,"stepsA":[{"transition":"transform 400ms ease-in 0","scaleX":1.02,"scaleY":1.02,"scaleZ":1},{"transition":"transform 400ms ease-out 0","scaleX":1,"scaleY":1,"scaleZ":1}],"stepsB":[]}]}}
 ]);
